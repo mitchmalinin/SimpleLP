@@ -99,3 +99,42 @@ footer{
 footer p{
     margin: 0;
 }
+
+/*Small Screen*/
+
+@media (max-width: 560px){
+    .showcase::after{
+        height: 50vh;
+    }
+
+    .content{
+        top: 5%;
+        margin-top: 10px;
+        
+    }
+    .content .title{
+        color: #fff;
+    }
+    .content .logo{
+        height: 140px;
+        width: 140px;
+
+    }
+
+    .content .text{
+        display: none;
+    
+    }
+
+    .grid-3,
+     .grid-2{
+        grid-template-columns: 1fr;
+    }
+
+    .services div{
+        border-bottom: #333 dashed 1px;
+        padding: 2rem 1rem;
+        
+
+    }
+}
